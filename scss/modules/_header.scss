@@ -1,0 +1,113 @@
+.header {    
+    background: url(../images/tu-tram-pham-202263.png),
+    linear-gradient(to top, #55b7ff, #7e5aff);
+    background-size: cover, cover;
+    
+
+   
+
+    &__top {
+        padding-top: 50px;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    &__info {
+      padding-top: 250px;
+      text-align: center;
+      font-family: Gotham;
+      color: #ffffff;
+    }
+
+    &__scroll {
+      padding-top: 200px;
+      padding-bottom: 40px;
+      
+      &_img {
+        border: 2px solid white;
+        border-radius: 50px;
+        opacity: 0.7;
+
+        &:hover {
+          opacity: 0.9;
+        }
+      }
+    }
+}
+
+.info__title {
+  font-size: 80px;
+  font-weight: bold;
+  line-height: 0.28;
+  letter-spacing: 4px;
+
+}
+
+.info__text {
+  padding-top: 50px;
+  font-size: 18px;
+  line-height: 1.22;
+  letter-spacing: 5.4px;
+}
+
+.logo {
+    &__img {
+        width: 240px;
+        height: 50px;
+    }
+}
+
+.navigation {
+    &__list {
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    
+    &__element {
+      margin-top: 20px;
+    }
+
+    &__text {
+      text-decoration: none;
+      margin-left: 80px;
+      font-family: Gotham;
+      font-size: 14px;
+      color: #ffffff;
+      line-height: 1.57;
+      text-transform: uppercase;
+      
+      &::before {
+        content: '';
+        border: 2px solid white;
+        padding-left: 15px;
+        width: 5px;
+        height: 4px;
+        border-radius: 100%;
+        margin-right: 15px;
+        transition: .3s;
+
+        
+        
+      }
+    }
+
+    
+}
+
+.navigation__text:hover::before {
+  background: #fff;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-around;
+
+  &__img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+}
+
+
