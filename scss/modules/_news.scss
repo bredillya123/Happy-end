@@ -2,7 +2,7 @@
     background: url(../images/news/city.png),
     linear-gradient(to top, #3c7fd4, #24ccfa);
     background-size: cover, cover;
-    height: 130vh;
+    height: 150vh;
 
     &__position {
         display: flex;
@@ -31,8 +31,10 @@
     }
 
     &__block {
-        display: flex;
-        justify-content: space-around;
+        // display: flex;
+        // justify-content: space-around;
+        width: 100%;
+        height: 20%;
     }
 
     &__element {
@@ -92,4 +94,125 @@
         color: #55b7ff;
         padding-left: 20px;
     }
+}
+
+/* Ограничивающая оболочка */
+.slick-list {
+  overflow: hidden;
+}
+
+/* Лента слайдов */
+.slick-track{
+    display: flex;
+    align-items: flex-start;
+}
+
+// Для конктретно для этого слайдера
+
+
+// сам слайдер
+.slider {
+  position: relative;
+  padding-right: 60px;
+  padding-left: 60px;
+}
+
+// общие пармаетры для стрелок
+.slider .slick-arrow {
+  position: absolute;
+  top: 50%;
+  margin-top: -30px;
+  z-index: 10;
+  font-size: 0;
+  width: 5px;
+  height: 5px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+
+  
+}
+
+// левая стрелка слайдера
+.slider .slick-arrow.slick-prev {
+  left: 0;
+  background: url(../images/sl-arrow_l.svg) 43% 50% / 100% no-repeat;
+  background-size: 30%;
+
+  &:hover {
+    background-size: 35%;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+  }
+
+  &:active {
+    background-color: #fff;
+  }
+}
+
+// правая стрелка слайдера
+.slider .slick-arrow.slick-next {
+  right: 0;
+  background: url(../images/sl-arrow_r.svg) 50% 50% / 100% no-repeat;
+  background-size: 30%;
+
+  &:hover {
+    background-size: 35%;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+  }
+
+  &:active {
+    background-color: #fff;
+  }
+}
+
+// Конпка в конце слайда(disabled)
+
+.slider .slick-arrow.slick-disabled {
+  opacity: 0.2;
+}
+
+// Точки слайдера
+
+.slider .slick-dots{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider .slick-dots li{
+  list-style: none;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.slider .slick-dots button{
+  font-size: 0;
+  width: 10px;
+  height: 10px;
+  border: 2px solid #fff;
+  background: none;
+  border-radius: 50%;
+  transition: 0.3s;
+
+  &:hover {
+    width: 15px;
+    height: 15px;
+  }
+
+  &:active {
+    background: #fff;
+  }
+}
+
+.slider .slick-dots li.slick-active button{
+  background: #fff;
 }
