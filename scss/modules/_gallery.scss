@@ -11,11 +11,11 @@
 		
 		&__title {
 			width: 300px;
-      margin-top: 140px;
-      border-top: 1px solid #2c4058;
-      color: #2c4058;
-      margin-bottom: 100px;
-      display: flex;
+      		margin-top: 140px;
+      		border-top: 1px solid #2c4058;
+      		color: #2c4058;
+      		margin-bottom: 100px;
+      		display: flex;
 			justify-content: center;
 			
 			&_text {
@@ -34,7 +34,7 @@
 		}
 
 		&__firstbox {
-			background: url(../images/gallery/scott-webb-176434.png), no-repeat;
+			background: url(../images/gallery/scott-webb-176434.png);
 			background-size: cover, cover;
 			width: 580px;
 			height: 438px;

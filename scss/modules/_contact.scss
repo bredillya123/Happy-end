@@ -1,0 +1,124 @@
+.contact {
+		background-image: url(../images/gallery/scott-webb-176434.png), 
+		linear-gradient(to top, #55b7ff, #7e5aff);
+		
+		background-size: cover, cover;
+
+
+		&__part  {
+			margin-left: 6%;
+		}
+
+		&__box {
+			width: 770px;
+			height: 450px;
+			
+			background: url(../images/news/city.png);
+			background-color: #ffffffd8;
+			background-size: cover, cover;
+			box-shadow: 0px -4px 30px 0 rgba(133, 133, 133, 0.2);
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin-left: 15%;
+			margin-bottom: 6%;
+		}
+
+		&__title {
+			width: 320px;
+      margin-top: 60px;
+      border-top: 1px solid #2c4058;
+      color: #2c4058;
+      margin-bottom: 8%;
+      display: flex;
+			justify-content: center;
+
+			&_text {
+				padding-top: 40px;
+				font-family: Gotham;
+				font-size: 44px;
+				font-weight: 500;
+				line-height: 0.5;
+				text-align: center;
+				text-transform: uppercase;
+			}
+		}
+
+   			&__content {
+					display: flex;
+					
+		}
+
+		&__info {
+			display: flex;
+			margin-left: 1%;
+			margin-bottom: 8%;
+
+			&--text {
+				font-size: 18px;
+				font-family: Gotham;
+				line-height: 1.89;
+				text-align: left;
+				color: #2c4058;
+				text-decoration: none;
+			}
+		}
+
+
+		&__element-top {
+			background: none;
+			border-bottom: 1px solid #2c4058;
+			font-family: Gotham;
+			font-size: 18px;
+			line-height: 1.22;
+			text-align: left;
+			padding-bottom: 4%;
+			margin-bottom: 6%;
+		}
+
+		&__element-bottom {
+			background: none;
+			font-family: Gotham;
+			font-size: 18px;
+			line-height: 1.22;
+			text-align: left;
+			color: rgba(75, 85, 98, 0.5);
+			opacity: 0.7;
+		}
+
+		&__button {
+			background: none;
+			margin-top: 23%;
+			margin-left: 15%;
+			width: 50%;
+			height: 25%;
+
+			&:hover {
+				width: 60%;
+				height: 33%;
+			}
+		}
+}
+
+
+
+.img__element {
+		margin-top: 2%;
+    width: 18px;
+		height: 18px;
+		margin-right: 4%;
+}
+
+.footer {
+	margin-left: 15%;
+	margin-bottom: 15%;
+	padding-bottom: 10%;
+
+	&__icons {
+		display: flex;
+	}
+
+	&__socials {
+		margin-left: 368px;
+	}
+}

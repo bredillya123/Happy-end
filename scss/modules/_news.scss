@@ -2,12 +2,13 @@
     background: url(../images/news/city.png),
     linear-gradient(to top, #3c7fd4, #24ccfa);
     background-size: cover, cover;
-    height: 150vh;
+    
 
     &__position {
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding-bottom: 140px;
     }
 
     &__title {
