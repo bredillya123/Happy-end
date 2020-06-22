@@ -10,8 +10,8 @@
     }
 
     &__top {
-        width: 300px;
-        font-family: Gotham;
+        width: 320px;
+        font-family: 'GothamBook' !important;
         font-size: 44px;
         font-weight: bold;
         line-height: 0.5;
@@ -63,7 +63,7 @@
 
     &__title {
         text-align: left;
-        font-family: Gotham;
+        font-family: 'GothamBook' !important;
         padding-bottom: 40px;
 
         &__first {
@@ -72,14 +72,16 @@
             line-height: 0.55;
             font-weight: bold;
             padding-bottom: 20px;
+            text-transform: uppercase;
         }
 
         &__second {
-            width: 356px;
+            width: 470px;
             font-size: 44px;
             color: #2c4058;
             line-height: 0.55;
             font-weight: bold; 
+            text-transform: uppercase;
         }
     }
 
@@ -104,17 +106,16 @@
         border: solid 1px #2c4058;
         color: #2c4058;
         text-transform: uppercase;
-        font-family: Gotham;
+        font-family: 'GothamBook' !important;
         font-size: 14px;
         text-align: center;
         transition: 0.5s;
 
         &:hover {
-            width: 220px;
-            height: 60px;
             font-size: 16px;
             background-color: #2c4058;
             color: #ffffff;
+            transform: scale(1.2);
         }
 
         &:active {

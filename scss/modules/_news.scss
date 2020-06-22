@@ -12,7 +12,7 @@
     }
 
     &__title {
-        width: 300px;
+        width: 330px;
         margin-top: 140px;
         border-top: 1px solid #fff;
         color: #fff;
@@ -22,7 +22,7 @@
 
         &_text {
             padding-top: 40px;
-            font-family: Gotham;
+            font-family: 'GothamBook' !important;
             font-size: 44px;
             font-weight: 500;
             line-height: 0.5;
@@ -48,7 +48,7 @@
     }
 
     &__theme {
-        font-family: Gotham;
+        font-family: 'GothamBook' !important;
         font-size: 22px;
         font-weight: bold;
         line-height: 1.55;
@@ -78,7 +78,7 @@
     padding-bottom: 40px;
 
     &__name {
-        font-family: Gotham;
+      font-family: 'GothamBook' !important;
         font-size: 18px;
         line-height: 1.22;
         text-align: left;
@@ -88,7 +88,7 @@
     }
 
     &__date {
-        font-family: Gotham;
+      font-family: 'GothamBook' !important;
         font-size: 14px;
         line-height: 1.57;
         text-align: left;
@@ -195,6 +195,7 @@
   margin-right: 20px;
 }
 
+
 .slider .slick-dots button{
   font-size: 0;
   width: 10px;
@@ -205,8 +206,9 @@
   transition: 0.3s;
 
   &:hover {
-    width: 15px;
-    height: 15px;
+    // width: 15px;
+    // height: 15px;
+    transform: scale(1.5);
   }
 
   &:active {

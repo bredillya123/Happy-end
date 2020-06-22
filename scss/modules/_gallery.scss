@@ -9,18 +9,18 @@
 			align-items: center;
 		}
 		
-		&__title {
-			width: 300px;
-      		margin-top: 140px;
-      		border-top: 1px solid #2c4058;
-      		color: #2c4058;
-      		margin-bottom: 100px;
-      		display: flex;
-			justify-content: center;
+	&__title {
+		width: 300px;
+      	margin-top: 140px;
+      	border-top: 1px solid #2c4058;
+      	color: #2c4058;
+      	margin-bottom: 100px;
+      	display: flex;
+		justify-content: center;
 			
 			&_text {
 				padding-top: 40px;
-				font-family: Gotham;
+				font-family: 'GothamBook' !important;
 				font-size: 44px;
 				font-weight: 500;
 				line-height: 0.5;
@@ -29,39 +29,35 @@
 			}
 		}
 
-		&__pictures {
-			display: flex;
+	&__pictures {
+		display: flex;
+	}
+
+	&__firstbox {
+		background: url(../images/gallery/scott-webb-176434.png);
+		background-size: cover, cover;
+		width: 580px;
+		height: 446px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
 		}
 
-		&__firstbox {
-			background: url(../images/gallery/scott-webb-176434.png);
-			background-size: cover, cover;
-			width: 580px;
-			height: 438px;
-			display: flex;
-			justify-content: center;
-			align-items: center;
+	&__container {
+		display: flex;
+	}
 
-		}
-
-		&__container {
-			display: flex;
-		}
-
-		&__gallery__box {
-			width: 285px;
-			height: 438px;
-
-			&--left {
-				margin-right: 10px;
-			}
-			
+	&__box {
+		padding-left: 15px;
+		width: 285px;
+		height: 438px;			
 		}
 
 		&__picture {
 			width: 285px;
 			height: 214px;
-			margin-bottom: 10px;
+			margin-bottom: 15px;
 		}
 
 		&__button {

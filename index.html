@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="css/styles.min.css">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="fonts/GothamBook/font.css">
 
   <!--[if lt IE 9]>
 	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -36,11 +37,11 @@
           </ul>
         </nav>
         <div class="socials">
-          <a href="https://uk-ua.facebook.com/"><img src="images/face.png" alt="facebook" class="socials__img"></a>
-          <a href="https://twitter.com/login?lang=ru"><img src="images/twitter3.png" alt="twitter"
-              class="socials__img"></a>
-          <a href="https://www.instagram.com/?hl=ru"><img src="images/instagram-new.png" alt="insta"
-              class="socials__img"></a>
+          <a class="socials__img-border" href="https://uk-ua.facebook.com/"><img src="images/bags/fc.png" alt="facebook" class="socials__img socials__img--f"></a>
+          <a class="socials__img-border" href="https://twitter.com/login?lang=ru"><img src="images/bags/tw.png" alt="twitter"
+              class="socials__img socials__img--t"></a>
+          <a class="socials__img-border" href="https://www.instagram.com/?hl=ru"><img src="images/bags/in.png" alt="insta"
+              class="socials__img socials__img--i"></a>
 
         </div>
       </div>
@@ -302,11 +303,11 @@
             <img src="images/360.png" alt="360deg">
           </div>
           <div class="col-6 gallery__container">
-            <div class="col-6 gallery__box gallery__box--left">
+            <div class=" gallery__box gallery__box--left">
               <img class="gallery__picture" src="images/gallery/photos-13323p6Bdc0uhr8Bq.png" alt="house">
               <img class="gallery__picture" src="images/gallery/fuse-brussels-169216.png" alt="fuse">
             </div>
-            <div class="col-6 gallery__box gallery__box--right">
+            <div class=" gallery__box gallery__box--right">
               <img class="gallery__picture" src="images/gallery/echo-grid-156713.png" alt="echo">
               <img class="gallery__picture" src="images/gallery/tu-tram-pham-202263.png" alt="tu-tram-pham">
             </div>
@@ -318,18 +319,16 @@
     </div>
   </section>
 
+  <!-- google map -->
 
+  <section id="map" class="map">
+
+  </section>
   <!-- section contact -->
 
   <section class="contact" id="contact">
     <div class="container">
       <div class="row">
-
-        <!-- google map -->
-        <div class="map">
-
-        </div>
-
 
         <div class="contact__box">
 
@@ -392,16 +391,18 @@
           <div class="footer__icons">
             <a href="#"><img src="images/Logo.png" alt="logo" class="logo__img"></a>
 
-            <div class="socials footer__socials">
-              <a href="https://uk-ua.facebook.com/"><img src="images/face.png" alt="facebook" class="socials__img"></a>
-              <a href="https://twitter.com/login?lang=ru"><img src="images/twitter3.png" alt="twitter"
-                  class="socials__img"></a>
-              <a href="https://www.instagram.com/?hl=ru"><img src="images/instagram-new.png" alt="insta"
-                  class="socials__img"></a>
+            
 
+
+            <div class="socials footer__socials">
+              <a class="socials__img-border" href="https://uk-ua.facebook.com/"><img src="images/bags/fc.png" alt="facebook" class="socials__img socials__img--f"></a>
+              <a class="socials__img-border" href="https://twitter.com/login?lang=ru"><img src="images/bags/tw.png" alt="twitter"
+                  class="socials__img socials__img--t"></a>
+              <a class="socials__img-border" href="https://www.instagram.com/?hl=ru"><img src="images/bags/in.png" alt="insta"
+                  class="socials__img socials__img--i"></a>
+    
             </div>
           </div>
-
           <div class="footer__info">
             <span class="footer__text-1">Copyrights © 2017 Monticello Group</span>
             <span class="footer__text-2">Made with ❤ by Ga Huy</span>
@@ -414,6 +415,8 @@
 
   </section>
 
+
+
   <!-- Scripts -->
 
   <!-- Подлючаем JQuery -->
@@ -424,6 +427,16 @@
 
   <!-- Подключаем файл скриптов -->
   <script src="js/script.js"></script>
+
+
+  <!-- Подключаем Api google maps -->
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBG4KkPyTXeyEsElNei9mRJLucQLDGR-68&callback=initMap">
+    </script>
+
+  <!-- Подключаем marker script -->
+  <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
+
 </body>
 
 </html>
